@@ -1,0 +1,53 @@
+
+body{
+    background-color: black;
+    height: 80%;
+}
+.main{
+    display: grid;
+    height: 80%;
+    width: 80%;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: 300px 100px 100px 100px 100px;
+    background-color: white;
+    margin-left: 10%;
+row-gap: 10px;
+column-gap: 10px;
+}
+.main1{
+    background-color: yellow;
+    color: black;
+    font-size: xx-large;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.one{
+    grid-column: 1/5;
+    margin: 0px;
+}
+.two{
+    grid-column: 1/2;
+    grid-row: 2/6;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+.three{
+    grid-row: 2/3;
+}
+.four{
+    grid-row: 2/4;
+}
+.five{
+    grid-row: 2/5;
+    margin-right: 0px;
+}
+.six{
+    grid-row: 3/6;
+    margin-bottom: 0px;
+}
+.eight,.nine{
+    margin-bottom: 0px;
+}
+.nine{
+    margin-right: 0px;
+}
